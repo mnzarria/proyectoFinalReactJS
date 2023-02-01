@@ -1,0 +1,43 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #49B3F9;
+    background: -webkit-linear-gradient(top, #49B3F9, #FFFFFF);
+    background: -moz-linear-gradient(top, #49B3F9, #FFFFFF);
+    background: linear-gradient(to bottom, #49B3F9, #FFFFFF);
+    text-align: center;
+    position: relative;
+    align-items: flex-start;
+}
+
+.nav-item {
+    float: center;
+}
+
+.nav-item a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #49B3F9;
+}
+
+.widget-container {
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+a, p, h1, h2, h3, h4, h5, li {
+    text-decoration: none;
+    font-family: "Montserrat",sans-serif; }
