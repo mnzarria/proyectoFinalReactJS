@@ -9,7 +9,7 @@ const ItemDetail = ({detail}) => {
       <div className="card-body bg-light">
           <h3 className="card-title">{detail.name}</h3>
           <p className="card-text">ID: {detail.id}</p>
-          <p className="card-text">País: {detail.country.charAt(0).toUpperCase() + detail.country.slice(1)}</p>
+          <p className="card-text">País: {detail.country}</p>
           <p className="card-text">Stock: {detail.stock}</p>
           <p className="card-text">Precio: {detail.price}$</p>
           <a href={detail.url} target="_blank" className="btn btn-primary">Agregar al carrito</a>
