@@ -11,7 +11,7 @@ import {GiSoccerBall} from 'react-icons/gi'
 export default function NavBar() {
   return (
     <>     
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">    <GiSoccerBall style={{height: 40, width: 40}}/>
 </Link>
@@ -19,10 +19,10 @@ export default function NavBar() {
                 <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className='nav-item'>
-                            <Link className="nav-link" to="/category/paises">PAISES</Link>
+                            <Link className="nav-link navbar-dropdown-menu" to="/category/paises">PAISES</Link>
                         </li>
                         <li className='nav-item'>
                             <Link className="nav-link" to="/category/escudos">ESCUDOS</Link>

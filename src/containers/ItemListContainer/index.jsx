@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
-// import Item from '../../components/Item';
 import productos from '../../data/stickers.json';
 import ItemList from '../../components/ItemList';
 import { useParams } from 'react-router-dom';
+import Banner from '../../components/Banner'
 
 
 const ItemListContainer = ({greeting}) => {
@@ -44,7 +44,7 @@ const ItemListContainer = ({greeting}) => {
 
   return (
     <div className='item-list-container'>
-        <h1>{greeting}</h1>
+        <Banner />
         <ItemList productos={products}/>
     </div>
   )

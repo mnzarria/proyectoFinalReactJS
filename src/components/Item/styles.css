@@ -6,3 +6,16 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+#main-cards{
+    /* background-color: #8E0D33; */
+    color: #8E0D33;
+}
+#main-cards .btn{
+    background-color: #8E0D33;
+    color: white;
+}
+#main-cards:hover {
+    scale: 105%;
+    border: solid 1px black;
+}

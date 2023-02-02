@@ -1,0 +1,28 @@
+#detail-cards{
+    border: solid 2px black;
+    max-width: 50rem;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#detail-cards .btn {
+    background-color: #8e0d33;
+    color: white;
+    font-weight: 500;
+}
+
+#img-detail {
+    max-width: 22rem;
+}
+
+#btn-addToCart{
+    width: 20rem;
+    height: 3rem;
+}
+
+.txt-aux{
+    color: green;
+    font-size: 1.1rem;
+}
