@@ -1,0 +1,14 @@
+#btn-addToCart{
+    width: 20rem;
+    height: 3rem;
+}
+
+#btn-decrement {
+    width: 2.5rem;
+    margin: 10px;
+}
+
+#btn-plus {
+    width: 2.5rem;
+    margin: 10px;
+}

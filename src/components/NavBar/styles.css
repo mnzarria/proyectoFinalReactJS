@@ -5,8 +5,7 @@
     overflow: hidden;   
     background: #8E0D33;   
     text-align: center;
-    align-items: flex-start;
-    position: sticky;
+    display: flex;
 }
 
 .nav-item {
@@ -23,8 +22,9 @@
 }
 
 .nav-item a:hover {
-    background-color: rgb(31, 31, 31);
+    /* background-color: rgb(31, 31, 31); */
     color: white;
+    scale: 110%;
 }
 
 .widget-container {

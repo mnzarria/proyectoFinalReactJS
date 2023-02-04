@@ -37,7 +37,6 @@ export default function NavBar() {
                     </form>
                 <div>
                     <CartWidget/>
-                    <span>5</span>
                 </div>
                 </div>
             </div>

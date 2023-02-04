@@ -10,6 +10,8 @@
 #main-cards{
     /* background-color: #8E0D33; */
     color: #8E0D33;
+    border-radius: 10px;
+    border: salmon;
 }
 #main-cards .btn{
     background-color: #8E0D33;

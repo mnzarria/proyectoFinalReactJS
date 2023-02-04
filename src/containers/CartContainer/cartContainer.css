@@ -1,0 +1,31 @@
+#table-row{
+    text-align: center;
+    vertical-align: middle;
+}
+#table-row td img{
+    max-width: 100px;
+}
+
+#table-head {
+    text-align: center;
+}
+
+#btn-remove{
+    border: 0px;
+    font-size: 15px;
+}
+
+#btn-home {
+    width: 10rem;
+    margin-top: 20px;
+}
+
+#link-home {
+    text-decoration: none;
+    color: white;
+}
+
+#div-empty-cart{
+    text-align: center;
+    margin-top: 50px;
+}

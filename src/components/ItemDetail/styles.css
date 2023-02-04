@@ -17,12 +17,12 @@
     max-width: 22rem;
 }
 
-#btn-addToCart{
-    width: 20rem;
-    height: 3rem;
-}
 
 .txt-aux{
     color: green;
     font-size: 1.1rem;
+}
+
+#btn-go-cart{
+    width: 20rem;
 }

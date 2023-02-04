@@ -1,52 +1,77 @@
 import React, { useEffect, useState } from 'react'
-import productos from '../../data/stickers.json';
+// import productos from '../../data/stickers.json';
 import ItemList from '../../components/ItemList';
 import { useParams } from 'react-router-dom';
 import Banner from '../../components/Banner'
+// import saveFromJSONToFirebase from '../../services/saveFromJSONToFirebase';
+import useFirebase from '../../hooks/useFirebase';
+import Spinner from 'react-bootstrap/Spinner';
 
 
-const ItemListContainer = ({greeting}) => {
-  const [products, setProducts] = useState([]);
-
+const ItemListContainer = ({}) => {
+  
   //Obtengo categoría para el filtro
   const {categoryId} = useParams()
 
-  // console.log('Categoría:')
-  // console.log(categoryId)
+  const [products, loading, error] = useFirebase(categoryId);
 
-  //Este effect se ejecuta cuando se monta el componente
-  useEffect(()=>{
-    const promesa = new Promise((acc,rej) =>{
-      setTimeout(() => {
-        acc(productos);
-      }, 3000);
-    });
-    promesa
-      .then((result) =>{
-        //Filtrado por categorías
-        if (categoryId) {
-          const productosFiltradosPorCategoria = result.filter(producto => producto.category === categoryId)
-          // console.log("Productos:");
-          // console.log(productos);
-          // console.log("Productos filtrados por categoria");
-          // console.log(productosFiltradosPorCategoria)
-          setProducts(productosFiltradosPorCategoria);
-        } else {
-          setProducts(result);
-        }
-      })
-      .catch((err) => {
-        alert("Hubo un error");
-      });
-  }, [categoryId])
+  /* Carga de datos desde JSON a Firebase */
+  // useEffect(()=>{
+  //   saveFromJSONToFirebase()
+  // },[])
   
-  console.log(products);
+
+  /* Logica para filtrar productos si uso el JSON */
+    // const promesa = new Promise((acc,rej) =>{
+  //   setTimeout(() => {
+  //     acc(productos);
+  //   }, 3000);
+  // });
+  // promesa
+  //   .then((result) =>{
+  //     //Filtrado por categorías
+  //     if (categoryId) {
+  //       const productosFiltradosPorCategoria = result.filter(producto => producto.category === categoryId)
+  //       setProducts(productosFiltradosPorCategoria);
+  //     } else {
+  //       setProducts(result);
+  //     }
+  //   })
+  //   .catch((err) => {
+  //     alert("Hubo un error");
+  //   });
 
   return (
-    <div className='item-list-container'>
-        <Banner />
-        <ItemList productos={products}/>
-    </div>
+    <>
+      {/* Mensaje de error */}
+      {error &&
+        <div className='container-fluid' style={{textAlign:"center"}}>
+              <div class="row">
+                <div className="col-12">
+                  <h1>Lo siento! Hubo un error: {error}</h1>
+                </div>
+              </div>
+        </div>
+      }
+      {/* Carga de la pagina principal */}
+      {
+        loading ?
+          <div className='container-fluid' style={{textAlign:"center"}}>
+              <div class="row">
+                <div className="col-12">
+                  <br />
+                  <br />
+                  <Spinner animation="border" variant="danger"/>
+                </div>
+              </div>
+          </div>
+        :
+          <div className='item-list-container'>
+              <Banner />
+              <ItemList productos={products}/>
+          </div>
+      }
+    </>
   )
 }
 

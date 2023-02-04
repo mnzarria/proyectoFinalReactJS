@@ -5,14 +5,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ShopProvider from './context/ShopProvider';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <ShopProvider>
     <App />
-  </React.StrictMode>
+  </ShopProvider>
+    
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
