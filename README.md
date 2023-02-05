@@ -21,8 +21,12 @@ Al confirmar la compra aparece una Toast que indica que aguardemos mientras se c
 ### Librerías utilizadas
 
 React bootstrap     --->    para los spinners mientras cargo productos en pantalla principal o en detalle
+
 Boostrap            --->    para el estilo general de la página (navbar, cards, buttons, etc)
+
 Firebase            --->    para el almacenamiento de productos y orders
+
 React-hook-form     --->    para el formulario final de compra
+
 React-router-dom    --->    para la navegación dentro de la página con links
 
