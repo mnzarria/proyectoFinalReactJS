@@ -1,6 +1,7 @@
 //Función auxiliar para generar la orden.
 const generateOrderObject = ({
-    nombre = "", 
+    nombre = "",
+    apellido = "", 
     email = "", 
     telefono = "", 
     cart = [], 
@@ -9,6 +10,7 @@ const generateOrderObject = ({
     return {
         buyer: {
             nombre: nombre,
+            apellido: apellido,
             email: email,
             telefono: telefono,
         },

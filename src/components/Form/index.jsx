@@ -44,6 +44,21 @@ const FormComp = ({confirmPurchase, formVis, setFormVis}) => {
                   <p>El nombre debe tener al menos 2 caracteres</p>
                 )}
                 
+                {/* Campo apellido */}
+                <label>Apellido</label><br />
+                <input
+                  {...register("apellido", {
+                    required: true,
+                    minLength: 2,
+                  })}
+                />
+                <br/>
+                <br />
+                {errors?.apellido?.type === "required" && <p>Ingrese un apellido</p>}
+                {errors?.apellido?.type === "minLength" && (
+                  <p>El apellido debe tener al menos 2 caracteres</p>
+                )}
+
                 {/* Campo correo */}
                 <label>Email</label><br />
                 <input type='email' {...register("email", {minLength: 3, required: true})} />

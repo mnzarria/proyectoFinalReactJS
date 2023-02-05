@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import ItemList from '../../components/ItemList';
 import { useParams } from 'react-router-dom';
 import Banner from '../../components/Banner'
-// import saveFromJSONToFirebase from '../../services/saveFromJSONToFirebase';
+import saveFromJSONToFirebase from '../../services/saveFromJSONToFirebase';
 import useFirebase from '../../hooks/useFirebase';
 import Spinner from 'react-bootstrap/Spinner';
 
@@ -66,7 +66,7 @@ const ItemListContainer = ({}) => {
               </div>
           </div>
         :
-          <div className='item-list-container'>
+          <div>
               <Banner />
               <ItemList productos={products}/>
           </div>

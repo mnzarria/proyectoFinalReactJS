@@ -1,0 +1,173 @@
+[
+    {
+     "cod": "ARG10",
+     "name": "Rodrigo De Paul ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/rodrigo-de-paul.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG11",
+     "name": "Ángel Di María ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/angel-di-maria.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG12",
+     "name": "Giovani Lo Celso ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/giovani-lo-celso.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG13",
+     "name": "Leandro Paredes ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/leandro-paredes.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG14",
+     "name": "Guido Rodríguez ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/guido-rodriguez.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG15",
+     "name": "Julián Álvarez ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/julian-alvarez.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG16",
+     "name": "Joaquín Correa ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/joaquin-correa.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG17",
+     "name": "Alejandro Gómez ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/alejandro-gomez.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG18",
+     "name": "Nicolás González ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/nicolas-gonzales-231x300.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG19",
+     "name": "Lautaro Martínez ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/lautaro-martinez.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG2",
+     "name": "Team Logo",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/escudo-argentina.png",
+     "category": "escudos",
+     "price": 225
+    },
+    {
+     "cod": "ARG20",
+     "name": "Lionel Messi ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/lionel-messi.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG3",
+     "name": "Emiliano Martínez ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/emiliano-martinez.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG4",
+     "name": "Franco Armani ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/franco-armani.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG5",
+     "name": "Marcos Acuña ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/marcos-acuna.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG6",
+     "name": "Nahuel Molina ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/nahuel-molina.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG7",
+     "name": "Nicolás Otamendi ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/nicolas-otamendi.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG8",
+     "name": "Germán Pezzella ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/german-pezzella.png",
+     "category": "paises",
+     "price": 225
+    },
+    {
+     "cod": "ARG9",
+     "name": "Cristian Romero ",
+     "country": "argentina",
+     "stock": "10",
+     "image": "https://figuritasqatar.com.ar/wp-content/uploads/cristian-romero.png",
+     "category": "paises",
+     "price": 225
+    }
+]

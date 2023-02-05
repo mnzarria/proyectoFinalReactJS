@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './cartContainer.css'
 import {FaTrashAlt} from 'react-icons/fa'
+import { Shop } from '../../context/ShopProvider';
 
 const TableRow = ({product}) => {
+
+  const {removeProduct} = useContext(Shop);
+
   return (
     <tr id="table-row">
           <td><img src={product.image} alt="table-row" /></td>
@@ -10,7 +14,7 @@ const TableRow = ({product}) => {
           <td>$ {product.price}</td>
           <td>{product.quantity}</td>
           <td>$ {product.quantity*product.price}</td>
-          <td><button class="btn btn-dark" id="btn-remove"><FaTrashAlt/></button></td>
+          <td><button class="btn btn-dark" id="btn-remove" onClick={()=>removeProduct(product.id)}><FaTrashAlt/></button></td>
     </tr>
   )
 }

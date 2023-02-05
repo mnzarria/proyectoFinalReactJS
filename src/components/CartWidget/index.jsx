@@ -14,9 +14,9 @@ const {countCart} = useContext(Shop)
   return (
     <>
       <Link to="/cart">
-        <HiShoppingCart style={{height: 40, width: 40, color: "white"}}/>
+        <HiShoppingCart style={{height: 40, width: 40, color: "white", marginRight:"20px"}}/>
       </Link>
-      <span style={{color: "white"}}>{countCart()}</span>
+      <span style={{color: "white", marginRight:"20px"}}>{countCart()}</span>
     </>  
   )
 }

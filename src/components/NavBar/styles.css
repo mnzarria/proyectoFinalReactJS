@@ -5,7 +5,7 @@
     overflow: hidden;   
     background: #8E0D33;   
     text-align: center;
-    display: flex;
+    /* display: flex; */
 }
 
 .nav-item {
@@ -19,6 +19,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .nav-item a:hover {
